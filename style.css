@@ -32,7 +32,8 @@ body{
     border-radius: 5px;
 }
 .container button{
-    width: 100%;
+    display: inline;
+    width: 80%;
     height: 50px;
     background:  #2e454b;
     color: #fff;
@@ -70,4 +71,22 @@ body{
     50%{transform: translateX(0);}
     75%{transform: translateX(2px);}
     100%{transform: translateX(0);}
+}
+#Download {
+    width: 17%;  
+    height: 50px;
+    font-size: 20px;
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#cont{
+    display: flex;
+    gap:10px;
+    align-content: center;
+}
+#cont button:first-child{
+    width: 83%;
+    height: 50px;
 }
